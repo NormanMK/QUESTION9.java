@@ -1,0 +1,26 @@
+package question9;
+
+/**
+ *
+ * @author hp
+ */
+public class QUESTION9 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int num = 20;
+        int sum = 0;
+
+        System.out.println("Numbers between 20 and 25:");
+
+        do {
+            System.out.print(num + " ");
+            sum += num;
+            num++;
+        } while (num <= 25);
+
+        System.out.println("\nSum of numbers between 20 and 25: " + sum);
+    }
+}
